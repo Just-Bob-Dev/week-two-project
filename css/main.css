@@ -19,3 +19,11 @@ calendar highlighted day: #F5005B
 button background: #F5005B
 copyright text: #FFFFFF
 */
+
+/*-------------------------------
+Navigation Bar
+-------------------------------*/
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
