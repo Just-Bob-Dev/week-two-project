@@ -27,3 +27,7 @@ ul li {
   text-decoration: none;
   list-style-type: none;
 }
+
+ul.nav-item {
+  color: #FFFFFF;
+}
