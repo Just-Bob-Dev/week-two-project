@@ -146,7 +146,7 @@ Body Adjustments
   font-weight: 600;
 }
 /*-----------------------------
-Movie Wrapper
+Movie Wrapper & Text/Poster
 -----------------------------*/
 .movie-wrapper {
   background-color: #0B1942;
@@ -180,10 +180,20 @@ Movie Wrapper
   font-family: 'PT Sans', sans-serif;
 }
 
-.rashomon-header {
+.rashomon-poster {
+  background-image: url('../images/rashomon-poster.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92.5%;
+  /*margin: auto;*/
+}
+
+.rashomon-header a {
   font-size: 2em;
   color: #00B7D3;
+  text-decoration: underline;
 }
+
 
 .movie-list {
   display: flex;
