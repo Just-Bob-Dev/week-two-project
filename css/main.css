@@ -2,6 +2,8 @@
 ---------------------------------------
 Css Content Coloring
 ---------------------------------------
+font-family: 'PT Sans', sans-serif;
+
 text: #0B1942
 inline link: #00B7D3
 h2 background: #0B1942
@@ -21,13 +23,221 @@ copyright text: #FFFFFF
 */
 
 /*-------------------------------
-Navigation Bar
+Navigation Bar and Copy adjustments
 -------------------------------*/
-ul li {
+ul li, a{
   text-decoration: none;
   list-style-type: none;
 }
+ul.nav-row {
+  margin: 0;
+  padding: 0;
+}
 
-ul.nav-item {
+.nav-row {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: #7DDFE8;
+}
+
+.nav-item a {
+  text-decoration: none;
+  list-style-type: none;
   color: #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 0;
+  height: 33.333333%;
+  padding:4%;
+}
+
+.home {
+  background-color: #00A5BF;
+}
+
+.calendar {
+  background-color: #00B7D3;
+}
+
+.join {
+  background-color: #00D5E7;
+}
+
+.logo-nav-container{
+  display: grid;
+  grid-template-columns: 28% 72%;
+}
+
+.logo img {
+  width:80%;
+  padding: 10%;
+}
+
+.logo {
+  background-color: #F5005B;
+}
+.copyright {
+  color: #fff;
+  font-size: 2.2em;
+  text-align:center;
+  padding: 10%;
+  margin-bottom: 0;
+
+}
+footer {
+  background-color: #7DDFE8;
+  margin-bottom: 0;
+}
+
+/*------------------------------
+Header Styling
+------------------------------*/
+
+.main-header {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3.3em;
+  font-weight: lighter;
+  padding: 1.5% 0% 1% 0;
+}
+
+.chapter-wrapper {
+  background-color:#0B1942
+}
+
+.chapter {
+  color:#FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3em;
+  font-weight: lighter;
+  padding: 2% 5%;
+}
+
+.month-header {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3.5em;
+  color: #fff;
+  font-weight: 200;
+  padding:2% 0 2% 5%;
+  margin-top: 1%;
+}
+
+/*------------------------------
+Body Adjustments
+-------------------------------*/
+
+.main-article {
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  font-size: 2.2em;
+  font-family: 'PT Sans', sans-serif;
+  color: #0B1942;
+  line-height: 180%;
+  font-weight: 600;
+}
+/*-----------------------------
+Movie Wrapper
+-----------------------------*/
+.movie-wrapper {
+  background-color: #0B1942;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.5%;
+}
+
+.up-next {
+  color: #fff;
+  font-size: 4.2em;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: lighter;
+  padding-left: 3%;
+}
+
+.next-showcase {
+  background-color: #E2E2E2;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 5% 0;
+}
+
+.next-showcase img{
+  margin: 5%;
+}
+
+.rashomon-aside {
+  color: #0B1942;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.rashomon-header {
+  font-size: 2em;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #E2E2E2;
+  padding:5%;
+  justify-content: space-between;
+}
+
+.movie-list div{
+  flex-basis: 50%;
+  margin:0;
+  padding: 0;
+}
+
+
+/*-----------------------------
+Calendar Adjustments
+------------------------------*/
+.calendar-container {
+  background-color:#0B1942;
+  margin: 0;
+  padding: 4% 0;
+}
+
+.div-city ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.cal-day {
+  background-color: #fff;
+  flex-basis: 13.85%;
+  height: 125px;
+  margin: .25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cal-day li {
+  background-color: #0B1942;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  width: 55%;
+  /*height: 62.5px;*/
+  text-align:center;
+  padding: 15% 2%;
+}
+
+.cal-day:nth-child(7n+1) {
+  margin-left: 0;
+}
+.cal-day:nth-child(7n) {
+  margin-right: 0;
 }
