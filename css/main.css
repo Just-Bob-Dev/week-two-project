@@ -175,23 +175,54 @@ Movie Wrapper & Text/Poster
   margin: 5%;
 }
 
-.rashomon-aside, ul li, .movie-title {
+.rashomon-aside, ul li, .movie-title, .rashomon-subheader{
   color: #0B1942;
   font-family: 'PT Sans', sans-serif;
+  margin-top: 8%;
+}
+
+.rashomon-subheader{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+hr{
+  width: 90%;
+  padding-left: 0;
+  margin-left: 0;
+  border: 1.5px solid #0B1942;
+}
+
+.discussion-points-list li{
+  font-size: 2em;
+  list-style-type: circle;
+  margin-top: 5%;
+  color: #0B1942;
+  font-weight: 500;
 }
 
 .rashomon-poster {
   background-image: url('../images/rashomon-poster.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 92.5%;
-  /*margin: auto;*/
+  background-size: contain;
+  height: 50vw;
+  margin:10%;
+  margin-bottom: 25%;
 }
 
 .rashomon-header a {
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: lighter;
+  padding-top: 10%;
   color: #00B7D3;
   text-decoration: underline;
+
+}
+
+.discussion-header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 8%;
 }
 
 
@@ -215,7 +246,6 @@ Movie Wrapper & Text/Poster
   color: #00B7D3;
   text-decoration: underline;
 }
-
 
 .movie-posters {
   width: 100%;
@@ -297,4 +327,35 @@ Calendar Adjustments
 }
 .cal-day:nth-child(7n) {
   margin-right: 0;
+}
+
+/*-----------------------------
+Join Form Sheet
+------------------------------*/
+.profile-pic {
+  background-image: url('../images/profile-placeholder.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 85vw;
+  height: 85vw;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-block {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.personal_info {
+  flex-basis: 100%;
+  display: flex;
+}
+
+.personal_info label, .personal_info input {
+  flex-basis: 100%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
 }
