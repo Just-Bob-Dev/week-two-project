@@ -231,7 +231,6 @@ hr{
   flex-wrap: wrap;
   background-color: #E2E2E2;
   padding: 3%;
-  /*justify-content: space-between;*/
 }
 
 .movie-title a {
@@ -246,6 +245,7 @@ hr{
   margin:1% 1% 2% 1%;
   padding: 0;
 }
+
 .box1, .box3 {
   margin-right: 2%;
 }
@@ -297,8 +297,8 @@ Calendar Adjustments
   background-color: #0B1942;
   color: #fff;
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.5em;
-  width: 55%;
+  font-size: 1em;
+  width: 40%;
   /*height: 62.5px;*/
   text-align:center;
 
@@ -314,6 +314,10 @@ Calendar Adjustments
 /*-----------------------------
 Join Form Sheet
 ------------------------------*/
+.pic_upload label, .pic_upload input{
+  font-family: 'PT Sans', sans-serif;
+}
+
 .profile-pic {
   background-image: url('../images/profile-placeholder.png');
   background-size: contain;
