@@ -35,11 +35,12 @@ ul.nav-row {
 }
 
 .nav-row {
-  top: 0;
+  /*top: 0;*/
+  padding-top: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: 20vh;
   background-color: #7DDFE8;
 }
 
@@ -48,14 +49,14 @@ ul.nav-row {
   list-style-type: none;
   color: #FFFFFF;
   font-family: 'PT Sans', sans-serif;
-  font-size: 2em;
+  font-size: .9em;
+  padding-top: 5vh;
 }
 
 .nav-item {
+  padding-top: 1.75vh;
   text-align: center;
-  margin: 0;
-  height: 33.333333%;
-  padding:4%;
+  height: 33.3333%;
 }
 
 .home {
@@ -72,20 +73,24 @@ ul.nav-row {
 
 .logo-nav-container{
   display: grid;
-  grid-template-columns: 28% 72%;
+  grid-template-columns: 30% 70%;
+  height: 20vh;
 }
 
 .logo img {
   width:80%;
   padding: 10%;
+  height: 80%;
 }
 
 .logo {
   background-color: #F5005B;
+  height: 20vh;
 }
+
 .copyright {
   color: #fff;
-  font-size: 2.2em;
+  font-size: 1em;
   text-align:center;
   padding: 10%;
   margin-bottom: 0;
@@ -102,7 +107,7 @@ Header Styling
 
 .main-header {
   font-family: 'PT Sans', sans-serif;
-  font-size: 3.3em;
+  font-size: 2em;
   font-weight: lighter;
   padding: 1.5% 0% 1% 0;
 }
@@ -114,14 +119,14 @@ Header Styling
 .chapter {
   color:#FFFFFF;
   font-family: 'PT Sans', sans-serif;
-  font-size: 3em;
+  font-size: 1.8em;
   font-weight: lighter;
   padding: 2% 5%;
 }
 
 .month-header {
   font-family: 'PT Sans', sans-serif;
-  font-size: 3.5em;
+  font-size: 1.8em;
   color: #fff;
   font-weight: 200;
   padding:2% 0 2% 5%;
@@ -139,11 +144,11 @@ Body Adjustments
 }
 
 .main-content {
-  font-size: 2.2em;
+  font-size: 1em;
   font-family: 'PT Sans', sans-serif;
   color: #0B1942;
   line-height: 180%;
-  font-weight: 600;
+  /*font-weight: 600;*/
 }
 /*-----------------------------
 Movie Wrapper & Text/Poster
@@ -158,7 +163,7 @@ Movie Wrapper & Text/Poster
 
 .up-next {
   color: #fff;
-  font-size: 4.2em;
+  font-size: 2.2em;
   font-family: 'PT Sans', sans-serif;
   font-weight: lighter;
   padding-left: 3%;
@@ -170,19 +175,15 @@ Movie Wrapper & Text/Poster
   grid-template-columns: 50% 50%;
   margin: 5% 0;
 }
-
-.next-showcase img{
-  margin: 5%;
-}
-
-.rashomon-aside, ul li, .movie-title, .rashomon-subheader{
+/*----Rashomon Poster Section---*/
+.rashomon-aside, .discussion-points-list li, .rashomon-subheader{
   color: #0B1942;
   font-family: 'PT Sans', sans-serif;
   margin-top: 8%;
 }
 
 .rashomon-subheader{
-  font-size: 2em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -190,89 +191,70 @@ hr{
   width: 90%;
   padding-left: 0;
   margin-left: 0;
-  border: 1.5px solid #0B1942;
+  border: 1px solid #0B1942;
 }
 
-.discussion-points-list li{
-  font-size: 2em;
-  list-style-type: circle;
-  margin-top: 5%;
-  color: #0B1942;
-  font-weight: 500;
-}
-
-.rashomon-poster {
-  background-image: url('../images/rashomon-poster.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 50vw;
+.rashomon-poster img{
+  width: 80%;
   margin:10%;
-  margin-bottom: 25%;
 }
 
 .rashomon-header a {
-  font-size: 3em;
+  font-size: 1.3em;
   font-weight: lighter;
   padding-top: 10%;
   color: #00B7D3;
   text-decoration: underline;
-
 }
 
 .discussion-header {
-  font-size: 2em;
+  font-size: .9em;
   font-weight: bold;
   margin-bottom: 8%;
 }
 
+.discussion-points-list li{
+  font-size: .8em;
+  list-style-type: circle;
+  margin-top: 5%;
+  margin-left: 0;
+  padding-left: 0;
+  color: #0B1942;
+  font-weight: 500;
+}
+
+/*----Movie List Styling----*/
 
 .movie-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #E2E2E2;
-  padding:5%;
-  justify-content: space-between;
-}
-
-.movie-list div{
-  flex-basis: 46.25%;
-  margin:1% 1% 4% 1%;
-  padding: 0;
+  padding: 3%;
+  /*justify-content: space-between;*/
 }
 
 .movie-title a {
-  font-size: 2em;
+  font-size: .9em;
   color: #00B7D3;
+  margin-top: 2%;
   text-decoration: underline;
 }
 
-.movie-posters {
-  width: 100%;
-  height: 525px;
+.box1, .box2, .box3, .box4 {
+  flex-basis: 47.5%;
+  margin:1% 1% 2% 1%;
   padding: 0;
-  margin: 0;
+}
+.box1, .box3 {
+  margin-right: 2%;
 }
 
-.poster1 {
-  background-image: url('../images/great-train-poster.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.poster2 {
-  background-image: url('../images/bicycle-thief-poster.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.poster3 {
-  background-image: url('../images/nosferatu-poster.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.poster4 {
-  background-image: url('../images/metropolis-poster.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+.movie-posters img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .list {
@@ -281,7 +263,7 @@ hr{
 }
 
 .attendance {
-  font-size: 1.75em;
+  font-size: .75em;
   font-weight: bold;
   padding: 4% 0;
 }
@@ -319,7 +301,7 @@ Calendar Adjustments
   width: 55%;
   /*height: 62.5px;*/
   text-align:center;
-  
+
 }
 
 .cal-day:nth-child(7n+1) {
@@ -361,7 +343,7 @@ Join Form Sheet
 .personal_info label, .personal_info input {
   flex-basis: 100%;
   font-family: 'PT Sans', sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   margin: .5% 0;
 }
 
@@ -370,13 +352,41 @@ Join Form Sheet
   height: 6vw;
 }
 
+.radio-header {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  margin-top: 10%;
+  font-weight: lighter;
+}
+
 .radio_buttons {
   display: flex;
   flex-direction: column;
-  font-size: 1.7em;
+  font-size: 1em;
   font-family: 'PT Sans', sans-serif;
 }
 
-.radio_buttons input {
+.radio_buttons label {
+  padding-top: 5%;
+}
 
+.add-input-textbox{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  padding: 5vh 0 5vh 0;
+}
+.add-input-textbox textarea{
+  width: 100%;
+  height: 8vh;
+  margin-top: 2%;
+}
+
+.profile_submit button {
+  height: 9vh;
+  width: 35%;
+  background-color: #F5005B;
+  color: white;
+  border: none;
+  font-size: 1em;
+  margin-bottom: 15%;
 }
