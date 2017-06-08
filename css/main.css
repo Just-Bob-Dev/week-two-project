@@ -91,7 +91,7 @@ ul.nav-row {
 .copyright {
   color: #fff;
   font-size: 1em;
-  text-align:center;
+  text-align: center;
   padding: 10%;
   margin-bottom: 0;
 
@@ -109,7 +109,7 @@ Header Styling
   font-family: 'PT Sans', sans-serif;
   font-size: 2em;
   font-weight: lighter;
-  padding: 1.5% 0% 1% 0;
+  padding: 1.5% 0% 1% 5%;
 }
 
 .chapter-wrapper {
