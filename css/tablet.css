@@ -49,6 +49,7 @@ body styling, Home Page, main-header
 .main-header {
   margin: 0;
   margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
 }
 
 .main-article {
@@ -133,4 +134,97 @@ hr {
   flex-basis: 23%;
   padding: 0 1%;
   margin:0;
+}
+
+/*--------------------------------------------
+Calendar Styling
+---------------------------------------------*/
+.calendar-container {
+  margin-top: 3%;
+  padding-top: 0;
+}
+
+.month-header {
+  padding: 4% 0 2% 2%;
+  margin: 0;
+}
+.cal-day li {
+  height: 4vw;
+  width: 5vw;
+  padding-top: 1vw;
+}
+
+/*-----------------------------------------
+Join Styling
+-----------------------------------------*/
+.form-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 95%;
+}
+.join-header {
+  flex-basis: 100%;
+  margin-bottom: 2.5%;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.profile-pic {
+  flex-basis: 100%;
+  width: 40vh;
+  height: 40vh;
+  padding: 3%;
+  margin-left: 2%;
+}
+.pic_upload {
+  flex-basis: 55%;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+}
+.pic_upload label{
+  flex-basis: 9%;
+  margin: 0;
+  margin-bottom: 2%;
+  padding: 0;
+}
+
+.info-block {
+  flex-basis: 45%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.personal_info input {
+  width: 41vw;
+  height: 4vw;
+  padding: 0;
+  margin: 0;
+}
+
+.personal_info:nth-child(2){
+  margin-bottom: 15vw;
+}
+
+.radio-header {
+  flex-basis: 100%;
+}
+
+.radio_buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.checkbox-container {
+  flex-basis:  50%;
+}
+
+.profile_submit {
+  flex-basis: 100%;
 }

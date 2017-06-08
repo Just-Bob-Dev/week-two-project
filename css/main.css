@@ -371,7 +371,7 @@ Join Form Sheet
   font-family: 'PT Sans', sans-serif;
 }
 
-.radio_buttons label {
+.checkbox-container {
   padding-top: 5%;
 }
 
