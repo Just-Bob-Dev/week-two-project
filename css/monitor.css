@@ -105,6 +105,7 @@ body styling, Home Page, main-header
   margin-top: 2.5%;
   flex-basis: 46%;
   margin-right: 2%;
+  height: 100%;
 }
 
 .rashomon-poster img{
@@ -113,11 +114,13 @@ body styling, Home Page, main-header
 }
 
 .rashomon-header {
+  font-size: 2em;
   padding: 0;
   margin: 0;
 }
 
 .rashomon-subheader {
+  font-size: 1.5em;
   padding: 4% 0;
   margin: 0;
 }
@@ -129,12 +132,14 @@ hr {
 .discussion-header {
   margin: 5% 0 0 0;
   padding: 0;
+  font-size: 1.5em;
 }
 
 .discussion-points-list {
-  margin-left: 6%;
+  margin-left: 10%;
   padding-left: 0;
-  font-size: 1.2em;
+  font-size: 1.8em;
+  line-height: 110%;
 }
 
 .discussion-points-list li {
@@ -145,6 +150,7 @@ hr {
 /*-----Movie List Styling-----*/
 .movie-list {
   padding: 2%;
+  margin:0%;
   margin-top: 2.5%;
   flex-basis: 46%;
   margin-left: 2%;
@@ -155,28 +161,49 @@ hr {
   margin:0;
 }
 .box1, .box3 {
-  margin-right: 2%;
+  margin-right: 3%;
+  margin-left: 0;
+  padding-left: 0;
 }
 .box2, .box4 {
-  margin-left: 2%;
+  margin-left: 3%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.movie-title {
+  font-size: 1.6em;
+}
+
+.attendance {
+  font-size: 1.4em;
 }
 
 /*--------------------------------------------
 Calendar Styling
 ---------------------------------------------*/
 .calendar-container {
-  margin-top: 3%;
+  /*margin-top: 1%;*/
   padding-top: 0;
 }
 
 .month-header {
-  padding: 4% 0 2% 2%;
+  padding: 2% 0 1% 2%;
   margin: 0;
+  font-size: 3em;
 }
+
+.cal-day {
+  flex-basis: 14.1143vw;
+  height: 14vw;
+  margin: .1%;
+}
+
 .cal-day li {
-  height: 4vw;
-  width: 5vw;
+  height: 2.5vw;
+  width: 3.5vw;
   padding-top: 1vw;
+  font-size: 1.2em;
 }
 
 /*-----------------------------------------

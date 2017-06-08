@@ -185,7 +185,6 @@ Movie Wrapper & Text/Poster
 
 .rashomon-subheader{
   font-size: 1em;
-  font-weight: bold;
 }
 
 hr{
@@ -237,6 +236,7 @@ hr{
 .movie-title a {
   font-size: .9em;
   color: #00B7D3;
+  font-family: 'PT Sans', sans-serif;
   margin-top: 2%;
   text-decoration: underline;
 }
@@ -266,8 +266,10 @@ hr{
 .attendance {
   font-family: 'PT Sans', sans-serif;
   font-size: .75em;
-  font-weight: bold;
   padding: 4% 0;
+}
+span {
+  font-weight: bold;
 }
 
 /*-----------------------------
@@ -310,8 +312,13 @@ Calendar Adjustments
 .cal-day:nth-child(7n+1) {
   margin-left: 0;
 }
+
 .cal-day:nth-child(7n) {
   margin-right: 0;
+}
+
+.cal-day:nth-child(13), .cal-day:nth-child(27){
+  background-color:#F5005B; 
 }
 
 /*-----------------------------
