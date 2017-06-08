@@ -3,43 +3,48 @@ Navigation Styling
 -----------------------------*/
 .nav-row {
   flex-direction: row;
-  height: 100%;
+  height: 110px;
   justify-content: flex-start;
   margin: 0;
 }
 
 .nav-item{
-  flex-basis: 15%;
-  height: 100%;
+  flex-basis: 8%;
+  height: 110px;
   padding: 0;
   font-size: 1.1em;
 }
 
 .logo-nav-container {
   display: grid;
-  grid-template-columns: 15% 85%;
-  height: 15%;
+  grid-template-columns: 8% 92%;
   margin:0;
   padding:0;
 }
 .this-guy {
-  padding-top: 50%;
+  padding-top: 43px;
 }
 
 .logo {
-  height: 100%;
+  height: 110px;
+}
+.logo img{
+  height: 90%;
+  margin: 5%;
+  padding: 0;
 }
 
 footer {
   display: grid;
   grid-template-columns: 80% 20%;
-  height: 15vh;
+  height: 110px;
 }
 
 .copyright {
-  padding-top: 20%;
+  padding-top: 35px;
   width: 100%;
-  padding-left: 0;
+  padding-left: 10%;
+  font-size: 1.1em;
 }
 
 
@@ -48,8 +53,9 @@ body styling, Home Page, main-header
 ------------------------------*/
 .main-header {
   margin: 0;
-  margin-top: 2.5vh;
-  margin-bottom: 2.5vh;
+  padding-top: 0;
+  padding-bottom: 2%;
+  font-size: 3em;
 }
 
 .main-article {
@@ -64,8 +70,8 @@ body styling, Home Page, main-header
 }
 
 .chapter {
-  font-size: 1.5em;
-  padding: 5%;
+  font-size: 2em;
+  padding: 2.5%;
   margin: 0;
 }
 
@@ -75,19 +81,30 @@ body styling, Home Page, main-header
 
 .main-content {
   width: 90%;
+  font-size: 1.3em;
   margin-left: 0;
-  line-height: 175%;
+  line-height: 150%;
 }
 
 /*----- Next Showcase -------*/
 .up-next {
   padding: 1%;
-  font-size: 1.9em;
+  font-size: 2.5em;
   margin: 0;
+  flex-basis: 100%;
+}
+
+.movie-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2%;
 }
 
 .next-showcase {
   margin-top: 2.5%;
+  flex-basis: 46%;
+  margin-right: 2%;
 }
 
 .rashomon-poster img{
@@ -128,12 +145,20 @@ hr {
 /*-----Movie List Styling-----*/
 .movie-list {
   padding: 2%;
+  margin-top: 2.5%;
+  flex-basis: 46%;
+  margin-left: 2%;
 }
 
 .box1, .box2, .box3, .box4 {
-  flex-basis: 23%;
-  padding: 0 1%;
+  flex-basis: 46%;
   margin:0;
+}
+.box1, .box3 {
+  margin-right: 2%;
+}
+.box2, .box4 {
+  margin-left: 2%;
 }
 
 /*--------------------------------------------

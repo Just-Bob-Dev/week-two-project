@@ -94,6 +94,7 @@ ul.nav-row {
   text-align: center;
   padding: 10%;
   margin-bottom: 0;
+  font-family: 'PT Sans', sans-serif;
 
 }
 footer {
@@ -263,6 +264,7 @@ hr{
 }
 
 .attendance {
+  font-family: 'PT Sans', sans-serif;
   font-size: .75em;
   font-weight: bold;
   padding: 4% 0;
