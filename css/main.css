@@ -57,7 +57,10 @@ ul.nav-row {
   padding-top: 1.75vh;
   text-align: center;
   height: 33.3333%;
+  cursor: pointer;
 }
+
+
 
 .home {
   background-color: #00A5BF;
@@ -205,6 +208,7 @@ hr{
   padding-top: 10%;
   color: #00B7D3;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .discussion-header {
@@ -239,6 +243,7 @@ hr{
   font-family: 'PT Sans', sans-serif;
   margin-top: 2%;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .box1, .box2, .box3, .box4 {
@@ -318,7 +323,7 @@ Calendar Adjustments
 }
 
 .cal-day:nth-child(13), .cal-day:nth-child(27){
-  background-color:#F5005B; 
+  background-color:#F5005B;
 }
 
 /*-----------------------------
@@ -326,6 +331,7 @@ Join Form Sheet
 ------------------------------*/
 .pic_upload label, .pic_upload input{
   font-family: 'PT Sans', sans-serif;
+  cursor: pointer;
 }
 
 .profile-pic {
@@ -364,6 +370,7 @@ Join Form Sheet
 .personal_info input {
   border: 1px solid lightgrey;
   height: 6vw;
+  cursor: pointer;
 }
 
 .radio-header {
@@ -380,6 +387,10 @@ Join Form Sheet
   font-family: 'PT Sans', sans-serif;
 }
 
+.radio_buttons input {
+  cursor: pointer;
+}
+
 .checkbox-container {
   padding-top: 5%;
 }
@@ -393,6 +404,7 @@ Join Form Sheet
   width: 100%;
   height: 8vh;
   margin-top: 2%;
+  cursor: pointer;
 }
 
 .profile_submit button {
@@ -403,4 +415,5 @@ Join Form Sheet
   border: none;
   font-size: 1em;
   margin-bottom: 15%;
+  cursor: pointer;
 }
